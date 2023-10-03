@@ -1,0 +1,415 @@
+/* Barre de Navigation*/
+
+/* test pr comment */
+
+:root {
+  --marron: #7f5539;
+}
+
+header {
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  z-index: 5;
+}
+
+header #logo {
+  width: 7rem;
+}
+
+nav {
+  display: flex;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #7f5539;
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: "Merienda";
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul #home{
+  background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%); 
+  padding: 24px 21px;
+  border-radius: 10px;
+}
+nav ul #contact{
+  background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%); 
+  padding: 24px 21px;
+  border-radius: 10px;
+}
+nav > ul > li > a:hover {
+  background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);
+  text-decoration: none;
+  color: white;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+
+   
+/* Img et h1 */
+main .background {
+  background-image: url(/Images/titre.jpg);
+  position: relative;
+  height: 400px;
+  min-height: 100vh;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .titre {
+  background-color: #d9d9d9;
+  position: relative;
+  width: 44%;
+  height: 25%;
+  margin-left: 54%;
+  border-radius: 80px 10px;
+  text-align: center;
+  padding-top: 5.5rem;
+  font-size: 2.5rem;
+  box-shadow: 5px 5px rgba(239, 135, 29, 1);
+  position: relative;
+  
+  
+  
+}
+main .titre h1 {
+  color: var(--marron);
+  text-shadow: 5px 1px beige;
+  margin-top: -4.5rem;
+  font-family: "Merienda";
+  font-size: 3.5rem;
+
+
+}
+main .titre .ptitre {
+  color: var(--marron);
+  margin-top: 1.5rem;
+  font-family: "Merienda";
+  text-shadow: 5px 1px beige;
+  font-size: 1.5rem;
+
+ 
+}
+
+/*Notre Mission*/
+#partie1{
+margin: 60px;
+
+
+}
+.titreh2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  padding: 20px;
+  
+ }
+ #partie1 .titreh2 .patte {
+  margin-top: -10px ;
+ /* padding-bottom: 10px; */
+ }
+ 
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+#partie1 .text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ align-items : center;
+ padding-right: 7rem;
+ padding-left: 7rem;
+ gap: 50px;
+}
+#partie1 p {
+  width: 95%;
+  height: 40%;
+  padding-left: 2rem;
+  text-align: justify;
+  align-items: center;
+  padding-top: 5 rem;
+  margin-top: 2rem;
+  line-height: 3rem;
+  font-size: 20px;
+  font-family: "Merienda";
+}
+/* #partie1 {
+  float: right;
+  padding: 1rem;
+ 
+  font-size: 2rem;
+  font-weight: bolder;
+}
+#partie1 {
+  float: right;
+  padding: 1rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  padding-bottom: 8rem;
+  padding-top: 4rem;
+} */
+
+/* #partie1 .missionImg {
+  float: right;
+  width: 30rem;
+  height: 20rem;
+} */
+
+
+/* PARTIE 2* SERVICE*/
+
+#partie2 h2 {
+  margin-bottom: 3%;
+   }
+#partie2 .containerorange {
+  width: 80%;
+  height: 37.5rem;
+  background-color: #ffe5d9;
+  margin: auto;
+  border-radius: 10px 70px 10px 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  padding-right: 8rem;
+}
+
+#partie2 .bloc1 .bloc2 .bloc3 {
+  width: 33%;
+  height: 60%;
+}
+
+#partie2 .bloc1 .img1 {
+  width: 350px;
+  height: 60%;
+  margin-top: 20px;
+}
+
+#partie2 .bloc2 .img2 {
+  width: 341px;
+  height: 60%;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+#partie2 .bloc3 .img3 {
+  width: 250px;
+  height: 65%;
+  margin-left: 50px;
+}
+
+#partie2 .sstitre1 {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  padding-top: 2rem;
+}
+#partie2 .sstitre2 {
+  width: 70%;
+  height: 60%;
+  margin: auto;
+  padding-top: 2rem;
+}
+#partie2 .sstitre3 {
+  width: 70%;
+  height: 60%;
+  margin: auto;
+  padding-top: 1.5rem;
+}
+#partie2 h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+#partie2 p {
+  text-align: justify;
+  align-items: center;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+/* ANIMATION */
+
+.reveal-loaded .reveal [class*="reveal-"] {
+  opacity: 0;
+  transform: translateY(0px);
+}
+
+.reveal-loaded [class*="reveal"]{
+  transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
+/* On ajoute du délai */
+.reveal-loaded .reveal-2 {
+  transition-delay: .2s;
+}
+
+.reveal-loaded .reveal-3 {
+  transition-delay: .3s;
+}
+
+.reveal-loaded .reveal-4 {
+  transition-delay: .4s;
+}
+
+/* PARTIE 3 BIENVENUE - CAROUSEL */
+
+.partie3 {
+  margin-top: 5rem;
+  padding-top: 5rem;
+  background-image: url(Images/background2.png);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.carousel {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.carousel > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 4rem;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
+  margin-left: 350px;
+}
+
+.slide > img {
+  display: block;
+  width: 75%;
+  height: 75%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide[data-active] {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms; 
+}
+
+.carousel-button {
+  position: absolute;
+  z-index: 2;
+  background: none;
+  border: none;
+  font-size: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.988);
+  cursor: pointer;
+  border-radius: 0.25rem;
+  padding: 0 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0px 200px 300px 250px;
+  margin-top: 0;
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-button:focus {
+  outline: 1px solid black;
+}
+
+.carousel-button.prev {
+  left: 1rem;
+}
+
+.carousel-button.next {
+  right: 1rem;
+}
+
+.slide {
+  margin-bottom: -200px;
+}
+
+/* FOOTER */
+footer {
+  padding: 40px 0;
+  background-color: #7f5539;
+  color: #ffe5d9;
+}
+footer ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+footer li {
+  padding: 0 10px;
+}
+footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+footer ul a:hover {
+  opacity: 1;
+}
+footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+footer .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+footer .social > a:hover {
+  opacity: 0.9;
+}
+footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}

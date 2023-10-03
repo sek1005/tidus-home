@@ -1,0 +1,204 @@
+:root {
+    --marron: #7f5539;
+  }
+  header {
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    z-index: 5;
+  }
+  
+  header #logo {
+    width: 7rem;
+  }
+  
+  nav {
+    display: flex;
+  }
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #7f5539;
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: "Merienda";
+  }
+  
+  nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul #contact{
+    background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%); 
+    padding: 24px 21px;
+    border-radius: 10px;
+  }
+  nav ul #chien{
+    background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%); 
+    padding: 24px 21px;
+    border-radius: 10px;
+  }
+  nav > ul > li > a:hover {
+    background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+  }  
+  
+
+  main .backgrounda {
+    background-image: url(/Images/chien-present1.jpg);
+    height: 150px;
+    min-height: 75vh ;
+    background-position: 10% 30%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  main .Nom {
+    background-color: #d9d9d9;
+    width: 22rem;
+    height: 10rem;
+    margin-left: 5%;
+    border-radius: 80px 80px 80px 80px ;
+    text-align: center;
+    padding-top: 5.5rem;
+    font-size: 2.5rem;
+    box-shadow: 10px 10px rgba(239, 135, 29, 1);
+  }
+
+
+  main .Nom h1 {
+    color: var(--marron);
+    text-shadow: 5px 1px beige;
+    margin-top: -3rem;
+    font-family: "Merienda";
+    font-size: 3.5rem;
+  }
+
+  section#Description{
+  }
+
+  section#Description h1 {
+    background-color: #d9d9d9; 
+    text-align: center;
+    height: 45px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 80%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:3px 3px rgba(239, 135, 29, 1);
+    margin-bottom: 3%;
+    font-family: 'Merienda';
+    font-size: 190%;
+
+  }
+
+
+  section#Description div#para {
+   display: flex;
+   align-items: center;
+   gap: 40px;
+  }
+
+  section#Description div#para img {
+    transition: transform .1s;
+    border-radius: 20% 20% 20% 20% ;
+    box-shadow: -10px 10px 5px 5px rgba(239, 135, 29, 1);
+    margin-left: 50px;
+  }
+
+  img:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+-webkit-transform: scale(1.1); /* Safari 3-8 */
+transform: scale(1.1);
+  }
+
+  section#Description>div#para p {
+    font-family: 'Merienda';
+    line-height: 55px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: start;
+  }
+
+
+  section#vecuImages {
+    display: flex;
+    justify-content:space-evenly;
+  }
+
+  section#vecuImages img#vecu1{
+    margin-top: 3%;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    box-shadow: 3px 3px rgba(239, 135, 29, 1);
+  }
+
+  img#vecu2 {
+    border-radius:50% ;
+    margin-bottom: 1%;
+    width: 25%;
+    height: 25%;
+    box-shadow: 3px 3px rgba(239, 135, 29, 1);
+  }
+
+
+
+  footer {
+    padding: 40px 0;
+    background-color: #7f5539;
+    color: #ffe5d9;
+  }
+  footer ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  footer li {
+    padding: 0 10px;
+  }
+  footer ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  footer ul a:hover {
+    opacity: 1;
+  }
+  footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  footer .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+  }
+  footer .social > a:hover {
+    opacity: 0.9;
+  }
+  footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+  }
+  

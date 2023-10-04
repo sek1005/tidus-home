@@ -52,7 +52,7 @@
   }
 
   main .backgrounda {
-    background-image: url(/images/malinois-672686_1920.jpg);
+    background-image: url(/images/chat-noir3.jpg);
     height: 14px;
     min-height: 75vh ;
     background-position: 40% 50%;
@@ -63,26 +63,6 @@
 
   }
 
-  main .Nom {
-    background-color: #d9d9d9;
-    width: 22rem;
-    height: 10rem;
-    margin-left: 65%;
-    border-radius: 80px 80px 80px 80px ;
-    text-align: center;
-    padding-top: 5.5rem;
-    font-size: 2.5rem;
-    box-shadow: 10px 10px rgba(239, 135, 29, 1);
-  }
-
-
-  main .Nom h1 {
-    color: var(--marron);
-    text-shadow: 5px 1px beige;
-    margin-top: -3rem;
-    font-family: "Merienda";
-    font-size: 3.5rem;
-  }
 
   section#Description{
     display: flex;
@@ -262,13 +242,13 @@
     background-position: center;
     border-radius: 4px;
     transition: all .7s ease;
-    background-image: url(/images/DIESEL-2-5-1-1.jpg) ;
+    background-image: url(/images/chat-noir5.jpg) ;
     border-radius: 20% 20% 20% 20% ;
   }
   
   .item:hover .img {
     border-radius: 10% 10% 10% 10%;
-    transform: scale(1.5) rotate(25deg);
+    transform: scale(1.2) rotate(10deg);
     background-color: #888;
     background-blend-mode: multiply;
   }

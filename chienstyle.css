@@ -36,19 +36,18 @@
   }
   nav ul #contact{
     background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%); 
-    padding: 24px 21px;
+    padding: 10px 21px;
     border-radius: 10px;
   }
   nav ul #chien{
     background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%); 
-    padding: 24px 21px;
+    padding: 10px 21px;
     border-radius: 10px;
   }
   nav > ul > li > a:hover {
     background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);
     text-decoration: none;
     color: white;
-    padding: 20px 20px;
     border-radius: 10px;
   }
 
@@ -117,70 +116,65 @@
 
   /* GRID */
   .grid{
-    width: 90%;
+    width: 80%;
     margin: 3rem auto; 
   }
   
   .gallery {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 1.5rem; 
   }
   
-  .imag{
+  /* ############### */
+ .grid .gallery .a-img-txt{
+  text-decoration: none;
+ }
+
+ .grid .gallery .a-img-txt{
+    width: 100%;
+    height: 100%;
+    display:grid; 
+  }
+  
+  /* les enfants se superposent */
+  .a-img-txt>*{
+    grid-area:1/1/-1/-1; 
+    /* raccourci pour grid-row et grid-column */
+  }
+  /* le texte */
+  .a-txt{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    color:black;
+    opacity:0;
+    transition:opacity .8s;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    
+  }
+  /* le survol */
+  .a-txt:hover{
+    opacity:1;
+  }
+  
+  /* la déco */
+  .c1{
+    background:rgba(255,243,234,0.5);
+}
+  .a-img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block; 
     border-radius: 10px;
-
   }
-  
-  /* .gallery .img1{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3; 
-  
+  .a-txt:hover{
+    opacity:1;
   }
-  
-  .gallery .img2{
-    
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 3;
-  }
-  
- .gallery .img3{
-  grid-column-start: 5;
-  grid-column-end: 9;
-  grid-row-start: 1;
-  grid-row-end: 5;
-  }
-  
-  .gallery .img4{
-   grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 6;
-  } 
-  
-  .gallery .img5{
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 6;
-    grid-row-end: 9;
-  
-  }
-  
-  .gallery .img6{
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 5;
-    grid-row-end: 9;
-  } */
   .gallery .img1{
     grid-column-start: 1;
     grid-column-end: 4;
@@ -225,6 +219,8 @@
     grid-row-start: 5;
     grid-row-end: 9
   }
+  
+  
 
   /* FOOTER */
 footer {

@@ -88,6 +88,9 @@
     font-size: 3.5rem;
    
   }
+  .bodypage {
+    background-image: url(Images/background2.png);
+  }
  
   /* TEXT */
   .entetchien{

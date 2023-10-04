@@ -52,6 +52,9 @@
   }
 
   /* ENTETE */
+  body{
+    background-image: url(/images/background2.png);
+  }
   .entete{
     padding: 50px 0 50px 0;
   }
@@ -66,6 +69,7 @@
     align-items: center;
     background-repeat:no-repeat;
     background-size: contain;
+    
   }
   
   main .titre {
@@ -91,6 +95,7 @@
  
   /* TEXT */
   .entetchien{
+    font-family: 'Merienda';
     width: 90%;
     margin: auto;;
     padding-left: 2rem;

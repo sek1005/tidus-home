@@ -149,27 +149,6 @@ h2 {
   font-size: 20px;
   font-family: "Merienda";
 }
-/* #partie1 {
-  float: right;
-  padding: 1rem;
- 
-  font-size: 2rem;
-  font-weight: bolder;
-}
-#partie1 {
-  float: right;
-  padding: 1rem;
-  padding-right: 5rem;
-  padding-left: 5rem;
-  padding-bottom: 8rem;
-  padding-top: 4rem;
-} */
-
-/* #partie1 .missionImg {
-  float: right;
-  width: 30rem;
-  height: 20rem;
-} */
 
 
 /* PARTIE 2* SERVICE*/
@@ -178,7 +157,7 @@ h2 {
   margin-bottom: 3%;
    }
 #partie2 .containerorange {
-  width: 80%;
+  width: 90%;
   height: 37.5rem;
   background-color: #ffe5d9;
   margin: auto;

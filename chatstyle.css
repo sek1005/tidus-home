@@ -39,7 +39,7 @@
     padding: 24px 21px;
     border-radius: 10px;
   }
-  nav ul #chien{
+  nav ul #chat{
     background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%); 
     padding: 24px 21px;
     border-radius: 10px;
@@ -58,7 +58,7 @@
   }
   main .background {
     padding-top: 100px ;
-    background-image: url(/Images/groupeechien.png);
+    background-image: url(/images/backchat.jpg);
     position: relative;
     height: 200px;
     min-height: 60vh;
@@ -108,16 +108,11 @@
     font-size: 1.7rem;
     font-weight:600;
   }
-  .entetchien strong{
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight:600;
-  }
 
 
   /* GRID */
   .grid{
-    width: 90%;
+    width: 80%;
     margin: 3rem auto; 
   }
   
@@ -126,7 +121,6 @@
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 1.5rem; 
-  }
   
   .imag{
     width: 100%;
@@ -134,98 +128,45 @@
     object-fit: cover;
     display: block; 
     border-radius: 10px;
-
   }
   
-  /* .gallery .img1{
-    grid-column-start: 1;
-    grid-column-end: 3;
+  .gallery .img1{
+    grid-column-start:1;
+    grid-column-end: 5;
     grid-row-start: 1;
-    grid-row-end: 3; 
+    grid-row-end: 4; 
   
   }
   
   .gallery .img2{
-    
-    grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-start: 5;
+    grid-column-end: 9;
     grid-row-start: 1;
     grid-row-end: 3;
   }
   
  .gallery .img3{
-  grid-column-start: 5;
-  grid-column-end: 9;
-  grid-row-start: 1;
-  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 9;
   }
   
   .gallery .img4{
-   grid-column-start: 1;
-  grid-column-end: 5;
+   grid-column-start: 5;
+  grid-column-end: 9;
   grid-row-start: 3;
   grid-row-end: 6;
   } 
   
   .gallery .img5{
-    grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-start: 5;
+    grid-column-end: 9;
     grid-row-start: 6;
     grid-row-end: 9;
   
   }
   
-  .gallery .img6{
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 5;
-    grid-row-end: 9;
-  } */
-  .gallery .img1{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 5; 
-  
-  }
-  
-  .gallery .img2{
-    
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 5;
-  }
-  
- .gallery .img3{
-  grid-column-start: 7;
-  grid-column-end: 9;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  }
-  
-  .gallery .img4{
-   grid-column-start: 7;
-  grid-column-end: 9;
-  grid-row-start: 3;
-  grid-row-end: 5;
-  } 
-  
-  .gallery .img5{
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 5;
-    grid-row-end: 9;
-  
-  }
-  
-  .gallery .img6{
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 5;
-    grid-row-end: 9
-  }
-
   /* FOOTER */
 footer {
     padding: 40px 0;

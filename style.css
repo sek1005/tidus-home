@@ -78,11 +78,9 @@ main .titre {
   padding-top: 5.5rem;
   font-size: 2.5rem;
   box-shadow: 5px 5px rgba(239, 135, 29, 1);
-  position: relative;
-  
-  
-  
+  position: relative;  
 }
+
 main .titre h1 {
   color: var(--marron);
   text-shadow: 5px 1px beige;

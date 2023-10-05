@@ -35,7 +35,7 @@
     border-radius: 10px;
   }
   nav ul #chien{
-    background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%); 
+    /* background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);  */
     padding: 24px 21px;
     border-radius: 10px;
   }
@@ -63,6 +63,8 @@
 
   }
 
+
+
   .animate-charcter
   {
      text-transform: uppercase;
@@ -83,8 +85,8 @@
     -webkit-text-fill-color: transparent;
     animation: textclip 2s linear infinite;
     display: inline-block;
-        font-size: 75px;
-        margin-left : 50.5%;
+        font-size: 45px;
+        margin-left : 70.2%;
         margin-top: 35%;
         font-family: 'Merienda';
   }
@@ -93,7 +95,25 @@
     to {
       background-position: 200% center;
     }
+  }
 
+  section.Lien {
+    display: flex;
+  }
+
+  
+
+  section.Lien a#chienL{
+    color:#d6721b ;
+    margin-left: 6.5%;
+    margin-top: 5%;
+    font-size: 150%;
+    font-family: 'Merienda';
+    
+  }
+
+  .Lien a#chienL:hover {
+    color: var(--marron);
   }
 
   section#Description{
@@ -143,7 +163,8 @@
   img:hover{
     -ms-transform: scale(1.1); 
 -webkit-transform: scale(1.1); 
- transform: scale(1.1);
+transform: scale(1.2) translate(5%, 5%);
+
   }
 
   section#Description>div#para p {
@@ -290,7 +311,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 4px;
-    transition: all .7s ease;
+    transition: all 1.5s ease;
     background-image: url(/images/DIESEL-2-5-1-1.jpg) ;
     border-radius: 20% 20% 20% 20% ;
   }
@@ -332,7 +353,7 @@
   
   .item:hover .title {
     top: 20%;
-    transition: all .7s ease;
+    transition: all 1.7s ease;
   
     after {
       width: 100%;

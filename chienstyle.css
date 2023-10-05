@@ -52,9 +52,7 @@
   }
 
   /* ENTETE */
-  body{
-    background-image: url(/images/background2.png);
-  }
+  
   .entete{
     padding: 50px 0 50px 0;
   }
@@ -91,10 +89,11 @@
     font-size: 3.5rem;
    
   }
-  .bodypage {
+  .corpspage {
     background-image: url(Images/background2.png);
+   
   }
- 
+
   /* TEXT */
   .entetchien{
     font-family: 'Merienda';
@@ -136,53 +135,60 @@
   }
   
   /* ############### */
- .grid .gallery .a-img-txt{
+ .grid .gallery .lienimage{
   text-decoration: none;
  }
 
- .grid .gallery .a-img-txt{
+ .grid .gallery .lienimage{
     width: 100%;
     height: 100%;
     display:grid; 
   }
   
   /* les enfants se superposent */
-  .a-img-txt>*{
+  .lienimage>*{
     grid-area:1/1/-1/-1; 
     /* raccourci pour grid-row et grid-column */
   }
   /* le texte */
-  .a-txt{
+  .texte{
     display:flex;
     justify-content:flex-start;
     align-items:center;
-    color:black;
+    color: #ffe5d9;
     opacity:0;
     transition:opacity .8s;
     font-size: 2.5rem;
     font-weight: bolder;
     font-family: 'Merienda';
+    position: relative;
+    text-shadow: 5px 5px 0px black;
     
   }
-  /* le survol */
-  .a-txt:hover{
-    opacity:1;
-  }
-  
-  /* la déco */
-  .c1{
+  /* .c1{
     background:rgba(255,243,234,0.5);
-}
-  .a-img{
+} */
+  .image{
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block; 
     border-radius: 10px;
+    transition: all .7s ease;
+    
   }
-  .a-txt:hover{
+  
+  .item:hover .image{
+    transform: scale(1.1) rotate(1deg);
+    /* background:rgba(255,243,234,0.5); */
+  }
+
+  .item:hover .texte{
     opacity:1;
+    background:rgba(255,243,234,0.5);
   }
+
+  /* GRILLE */
   .gallery .img1{
     grid-column-start: 1;
     grid-column-end: 4;

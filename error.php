@@ -12,10 +12,6 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="chienstyle.css" />
     <script src="anim.js"></script>
-    
-    
-
-
   </head>
   <body>
     <header>
@@ -29,7 +25,7 @@
           <li id="home">
             <a href="index.html">Accueil</a></li>
 
-          <li id="chien"><a href="chien.html">
+          <li><a href="chien.html">
             <span>Nos supers chiens</span><img src="/Images/chiennav.png" alt="Labrador" width="25px" height="25px">
             </a></li> 
 
@@ -46,33 +42,23 @@
         <section class="entete">
           <div class="background">
             <div class="titre">
-              <h1 >Nos Super Chien </h1>
+              <h1 >VEUILLEZ RESPECTER LES CONSIGNES </h1>
             </div>
-        </section>
-        </div>
+        </div>        
+    </section>
+
        <div class="entetchien">
-           <p>Adopter un de nos chiens est un <strong>ENGAGEMENT</strong> sérieux sur plusieurs années. Pour vous permettre de mieux les connaître, nous avons précisé le sexe (mâle ou femelle), le type et la taille (petit, moyen ou grand) de nos chiens… ainsi qu’un petit aperçu de leur personnalité. </p>
+           <p>
+        <?php foreach ($errors as $error) : ?>
+            <li><?= "merci de faire attention. " . $error ?></li>
+        <?php endforeach; ?>
            <br>
-           <p class="p">Vous souhaitez adopter l’un de nos chiens ? Découvrez les</p>
+           <p class="p">Les animaux abandonnés n'ont pas de temps à perdre oh ! </p>
        </div>
-      <!-- GRID -->
-      <section class="grid">
-        
-        <div class="gallery">
-          <div class="image img1"><img src="./images/MANNIX.jpg" alt="Gallery image 1" class="imag"></div>
-          <div class="image img2"><img src="./images/DIESEL.jpg" alt="Gallery image 2" class="imag"></div>
-          <div class="image img3"><img src="./images/PABLO.jpg" alt="Gallery image 3" class="imag"></div>
-          <div class="image img4"><img src= "./images/SHADOW.jpg"alt="Gallery image 4" class="imag"></div>
-          <div class="image img5"><img src="./images/ELSA.jpg" alt="Gallery image 5" class="imag"></div>
-          <div class="image img6"><img src="./images/TOBBY.jpg" alt="Gallery image 5" class="imag"></div>
-        </div>
-      </section>
-      </main>
-
-
-
- <!-- FOOTER -->
- <section class="partie4">
+</main>
+       
+       <!-- FOOTER -->
+       <section class="partie4">
     <footer>
       <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
       <ul class="list-inline">
@@ -90,5 +76,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
-</body>
-</html>       
+ </body>
+</html>
+

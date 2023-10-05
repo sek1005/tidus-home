@@ -37,19 +37,18 @@ nav > ul > li > a {
 
 nav ul #home{
   background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%); 
-  padding: 24px 21px;
+  padding: 10px 21px;
   border-radius: 10px;
 }
 nav ul #contact{
   background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%); 
-  padding: 24px 21px;
+  padding: 10px 21px;
   border-radius: 10px;
 }
 nav > ul > li > a:hover {
   background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);
   text-decoration: none;
   color: white;
-  padding: 20px 20px;
   border-radius: 10px;
 }
 

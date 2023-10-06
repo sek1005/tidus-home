@@ -78,11 +78,9 @@ main .titre {
   padding-top: 5.5rem;
   font-size: 2.5rem;
   box-shadow: 5px 5px rgba(239, 135, 29, 1);
-  position: relative;
-  
-  
-  
+  position: relative;  
 }
+
 main .titre h1 {
   color: var(--marron);
   text-shadow: 5px 1px beige;
@@ -166,6 +164,7 @@ h2 {
   justify-content: space-between;
   gap: 50px;
   padding-right: 8rem;
+  overflow: hidden;
 }
 
 #partie2 .bloc1 .bloc2 .bloc3 {
@@ -283,14 +282,14 @@ body {
   opacity:5;
   transition: 200ms opacity ease-in-out;
   transition-delay: 200ms;
-  margin-left: 350px;
+  margin-left: 400px;
 }
 
 .slide > img {
   border-radius: 20% 20% 20% 20%;
   display: block;
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
   object-fit: cover;
   object-position: center;
 }
@@ -329,11 +328,11 @@ body {
 }
 
 .carousel-button.prev {
-  left: 1rem;
+  left: 4.5rem;
 }
 
 .carousel-button.next {
-  right: 1rem;
+  right: 10rem;
 }
 
 .slide {
@@ -392,6 +391,7 @@ footer .copyright {
   color: #aaa;
   margin-bottom: 0;
 }
+
  /* Media  */
 
  @media screen and (max-width: 426px) {
@@ -410,7 +410,17 @@ footer .copyright {
     width: 100%;
     font-size: 1.2rem;
     font-family: "Merienda";
+   }
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 426px) {
+   nav {
+    display: none;
   }
+ 
+  
+
   header {
     background-color: #7F5539;
     width: 100vw;
@@ -424,6 +434,7 @@ footer .copyright {
     font-size: 3rem;
     margin-left: 40%;
   }
+
   main .ptitrereveal-4 {
     background-color: #D9D9D9;
     position: relative;
@@ -459,6 +470,33 @@ main p.ptitre.reveal-4 {
   
   
   }
+
+
+  main .background {
+    background-image: url(/Images/titre.jpg);
+    position: relative;
+    height: 300px;
+    min-height: 10vh;
+      }
+      main .titre {
+          width: 90%;
+          margin-left: 34%;}
+
+  main .titre h1 {
+  margin-top: -4.5rem;
+  margin-left: 50vw;
+  }
+  main h1.reveal-3{
+    font-size: 1rem;
+    margin-left: 12vw;
+  }
+  main p.ptitre.reveal-4 {
+    font-size: 0.8rem;
+  }
+  
+
+  /* NOTRE MISSION */
+
   .titreh2 {
     display: flex;
     flex-direction: row;
@@ -474,6 +512,7 @@ main p.ptitre.reveal-4 {
    }
    
   h2 {
+
     text-align: center;
     font-size: 2rem;
     font-weight: bolder;
@@ -500,3 +539,144 @@ main p.ptitre.reveal-4 {
     font-family: "Merienda";
   }
   
+
+    font-size: 1rem;}
+
+  #partie1{
+    margin: 10px;
+      }
+  #partie1 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items : center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  #partie1 p {
+    padding-left: 2rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+    font-size: 15px;
+  }
+  #partie2 h2 {
+    margin-bottom: 5%;
+    }
+  #partie2 .containerorange {
+    width: 90%;
+    max-height: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-right: 0rem;
+  }
+
+  #partie2 .containerorange .bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+   
+  }
+
+  #partie2 .bloc1 .img1 {
+    width: 50%;
+    
+  }
+
+  #partie2 .bloc2 .img2 {
+    width: 50%;
+    height: 60%;
+    padding-top: 0x;
+    margin-top: 0px;
+  }
+
+  #partie2 .bloc3 .img3 {
+    width: 30%;
+    height: 65%;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+
+  #partie2 .sstitre1 {
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    padding-top: .7rem;
+  }
+  #partie2 .sstitre2 {
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    padding-top: .7rem;
+  }
+  #partie2 .sstitre3 {
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    padding-top: .1rem;
+  }
+  #partie2 h3 {
+    
+    font-size: 1rem;
+    
+  }
+  #partie2 p {
+    line-height: .7rem;
+    font-size: .8rem;
+  }
+
+  /* #PARTIE 3 */
+
+
+  .partie3 {
+    .slide > img {
+      display: block;
+      width: 50%;
+    height: 40%;
+      object-fit: cover;
+      object-position: center;
+    }
+    
+    
+    .carousel-button {
+      position: absolute;
+      z-index: 2;
+      background: none;
+      border: none;
+      font-size: 4rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: rgba(255, 255, 255, 0.988);
+      cursor: pointer;
+      border-radius: 0.25rem;
+      padding: 0 0.5rem;
+      background-color: rgba(0, 0, 0, 0.1);
+      margin: 0px 200px 250px 250px;
+      margin-top: 0;
+    }
+    
+    
+    .carousel-button.prev {
+      left: 1rem;
+    }
+    
+    .carousel-button.next {
+      right: 4rem;
+    }
+    
+    .slide {
+      margin-bottom: -200px;
+    }
+    .slide {
+      margin-left: 120px;
+    }
+  
+}
+}
+
+

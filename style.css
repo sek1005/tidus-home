@@ -280,13 +280,14 @@ body {
 .slide {
   position: absolute;
   inset: 0;
-  opacity: 0;
+  opacity:5;
   transition: 200ms opacity ease-in-out;
   transition-delay: 200ms;
   margin-left: 350px;
 }
 
 .slide > img {
+  border-radius: 20% 20% 20% 20%;
   display: block;
   width: 75%;
   height: 75%;
@@ -297,7 +298,7 @@ body {
 .slide[data-active] {
   opacity: 1;
   z-index: 1;
-  transition-delay: 0ms; 
+  transition-delay: 800ms; 
 }
 
 .carousel-button {
@@ -391,3 +392,111 @@ footer .copyright {
   color: #aaa;
   margin-bottom: 0;
 }
+ /* Media  */
+
+ @media screen and (max-width: 426px) {
+  nav {
+    display: none;
+  }
+  #nav-mobile img {
+    width: 50px;
+    height: 50px;
+  }
+  header #nav-mobile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #7F5539;
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: "Merienda";
+  }
+  header {
+    background-color: #7F5539;
+    width: 100vw;
+    height: 80px;
+  }
+  img#logomobile {
+    width: 80px;
+    height: 80px;
+  }
+  .bx {
+    font-size: 3rem;
+    margin-left: 40%;
+  }
+  main .ptitrereveal-4 {
+    background-color: #D9D9D9;
+    position: relative;
+    width: 40vw;
+    height: 30vw;
+    margin-left: 58vw;
+    border-radius: 80px 10px;
+    text-align: center;
+    padding-top: 1rem;
+    /* margin-top: 30px; */
+    font-size: 1rem;
+    box-shadow: 5px 5px rgba(239, 135, 29, 1);
+}
+ main .titre h1 {
+  color: var(--marron);
+ text-shadow: 5px 1px beige;
+ margin-top: -4.5rem;
+ margin-left: 50vw;
+ font-family: "Merienda";
+ font-size: auto;
+}
+main h1.reveal-3{
+  font-size: 1rem;
+  margin-left: 12vw;
+}
+main p.ptitre.reveal-4 {
+  font-size: 0.8rem;
+}
+}
+
+#partie1{
+  margin: 60px;
+  
+  
+  }
+  .titreh2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
+    
+   }
+   #partie1 .titreh2 .patte {
+    margin-top: -10px ;
+   /* padding-bottom: 10px; */
+   }
+   
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  #partie1 .text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items : center;
+   padding-right: 7rem;
+   padding-left: 7rem;
+   gap: 50px;
+  }
+  #partie1 p {
+    width: 95%;
+    height: 40%;
+    padding-left: 2rem;
+    text-align: justify;
+    align-items: center;
+    padding-top: 5 rem;
+    margin-top: 2rem;
+    line-height: 3rem;
+    font-size: 20px;
+    font-family: "Merienda";
+  }
+  
